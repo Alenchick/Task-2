@@ -1,0 +1,20 @@
+a= int(input())
+b = int(input())
+c = int(input())
+
+count = 0
+
+def check(variable):
+  if variable <= 0:
+    print(count)
+    exit()
+  else:
+    count += 1
+
+while True:
+ a = -1
+ check(a)
+ b=-1
+ check(b)
+ c = -1
+ check(c)
