@@ -5,7 +5,7 @@ c = int(input())
 count = 0
 
 def check(variable):
-  if variable <= 0:
+  if variable == 0:
     print(count)
     exit()
   else:
@@ -18,3 +18,4 @@ while True:
  check(b)
  c = -1
  check(c)
+break
